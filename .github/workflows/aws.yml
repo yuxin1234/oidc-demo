@@ -13,7 +13,7 @@ permissions:
 jobs:
   aws:
     name: aws-example
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: checkout
